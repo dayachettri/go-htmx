@@ -1,0 +1,6 @@
+package views
+import "fmt"
+
+templ Home(count int) {
+	<div>Server was hit: { fmt.Sprintf("%d", count) } times</div>
+}
